@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000080;
+    border: 1px solid black;
+    color: white;
+    height: 130px;
+}
+
+.logotipo {
+    position: absolute;
+    top: -2px;
+    left: 60px;
+    width: 120px;
+    background-image: blue;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.cabecalho nav li a {
+    color: aliceblue;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.but_cell {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Corpo txt 1 com imgam */
+
+
+.txt1 {
+    border: 1px solid black;
+    width: 350px;
+    font-size: 40px;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+.subtxt1 {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    border: 1px solid black;
+    width: 530px;
+
+}
+
+.img1 {
+    position: relative;
+    top: 80p;
+    right: -550px;
+    border: 1px solid black;
+    width: 800px;
+
+
+}
