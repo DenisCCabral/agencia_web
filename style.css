@@ -6,23 +6,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000080;
+    background-color: #008044;
     border: 1px solid black;
-    color: white;
+    color: rgb(233, 37, 37);
     height: 130px;
 }
 
 .logotipo {
-    position: absolute;
-    top: -2px;
-    left: 60px;
-    width: 120px;
-    background-image: blue;
+    width: 100px;
 }
 
 .menu {
     display: flex;
-
 }
 
 .cabecalho nav li a {
@@ -32,29 +27,29 @@ body {
 }
 
 .but_cell {
-    position: absolute;
-    right: 10px;
-    top: 30px;
-    font-size: 20px;
+    font-size: 10px;
     padding: 20px;
     border-radius: 20px;
 }
 
 /* Corpo txt 1 com imgam */
 
+.nave {
+    position: relative;
+}
 
 .txt1 {
     border: 1px solid black;
     width: 350px;
     font-size: 40px;
-    position: absolute;
-    top: 250px;
+    position: relative;
+    top: 50px;
     left: 20px;
 }
 
 .subtxt1 {
-    position: absolute;
-    top: 350px;
+    position: relative;
+    top: 100px;
     left: 20px;
     border: 1px solid black;
     width: 530px;
@@ -63,7 +58,7 @@ body {
 
 .img1 {
     position: relative;
-    top: 80p;
+    top: -100px;
     right: -550px;
     border: 1px solid black;
     width: 800px;
